@@ -1,3 +1,9 @@
+
+#Actividad de Laboratorio 
+#Nombre: Jose de Jesus Lucio Tovar 
+#Fecha: 19-septiembre-2024
+
+
 a = float(input ("introduce el valor de a:")) # ingresa un valor flotante para la variable a aquí
 b = float (input("introduce el valor de b:"))# ingresa un valor flotante para la variable b aquí
 

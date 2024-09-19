@@ -1,3 +1,9 @@
+
+#Actividad de Laboratorio 
+#Nombre: Jose de Jesus Lucio Tovar 
+#Fecha: 19-septiembre-2024
+
+
 # este programa calcula los segundos en cierto número de horas determinadas 
 # este programa fue escrito hace dos días
 
