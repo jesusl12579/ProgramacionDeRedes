@@ -1,3 +1,5 @@
+#Autor: JOse de Jesus Lucio Tovar 
+#Fecha: 1 de noviembre del 2024
 import requests
 import json
 
