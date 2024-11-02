@@ -1,5 +1,7 @@
 #Autor: Jose de Jesus Lucio Tovar 
 #Fecha: 1 de noviembre del 2024
+#Descripcion: El scrip consulta una api que es de la caricatura de rickandmorty y obtiene
+#las cosultas que se le pidio del personaje como en este caso consulte el nombre,status,especie y genero
 import requests
 import json
 
