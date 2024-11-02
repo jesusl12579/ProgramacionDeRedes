@@ -13,7 +13,7 @@ try:
 
             # Verifica la entrada
             if not personaje_id.isdigit():
-                print("Ingrese un número válido.")
+                print("Ingrese un numero válido.")
                 continue
             
             personaje_id = int(personaje_id)

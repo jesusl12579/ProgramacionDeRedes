@@ -21,7 +21,7 @@ def chuck_norris():
         else:
             print(f"Error: No se pudo obtener el chiste. Código de estado: {response.status_code}")
     except requests.exceptions.RequestException as e:
-        print("Error de conexión al intentar obtener el chiste:", e)
+        print("Error de conexion al intentar obtener el chiste:", e)
     except json.JSONDecodeError:
         print("Error al consultar la api.")
         
