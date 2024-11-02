@@ -1,8 +1,7 @@
 # Autor: Jose de Jesus Lucio Tovar
 # Fecha: 1 de noviembre del 2024
-# Descripción: El script consulta la api de Star Wars  y consulta planetas.
-# Permite al usuario ingresar el ID del planeta 
-# y muestra su nombre, clima, diametro y poblacion.
+# Descripción: El script consulta la api de Star Wars  y consulta planetas
+# Permite al usuario ingresar el ID del planeta y muestra su nombre, clima, diametro y poblacion
 
 import requests
 import json
@@ -50,7 +49,7 @@ try:
                 print(f"No se encontro informacion del planeta con ID {planeta_id}")
 
         except requests.exceptions.RequestException as e:
-            print(f"Error al conectar con la API para el planeta {planeta_id}: {e}")
+            print(f"Error al conectar con la api para el planeta {planeta_id}: {e}")
         except json.JSONDecodeError:
             print(f"Error alconsultar el planeta con ID {planeta_id}")
 
